@@ -15,6 +15,7 @@ const readline = require('readline-sync');let number = readline.question('give m
         }
     console.log("end of program");
 const readline = require('readline-sync');
+
 let number = readline.question('give me any number of your choice \nyour answer: ')
 ;if (number % 2 == 0) {
 }else {    console.log("its not divisible by 2")
@@ -48,4 +49,9 @@ if (number % 6 == 0) {
     console.log("its not divisible by 2")
 }
 console.log("end of program")
+
+const readLine = require ('readline-sync');
+
+let answer = readLine.question("Guess My Number");
+console.log(answer)
 
