@@ -6,7 +6,7 @@ console.log(answer);
 let username = readLine.question("Enter username");
 let password = readLine.question("Enter password");
 if (password == "abc"){
-    console.log('welcome'${username};
+    console.log('welcome')${username};
 } else{
     console.log("invalid");
 }
