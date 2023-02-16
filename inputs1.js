@@ -59,7 +59,3 @@ let guess = readLine.question("Guess My Number");
 if (guess == 20);
 console.log("You Won!");
 
-
-
-
-let cost = Number(readLine.question("Enter cost: ");
