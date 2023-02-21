@@ -12,11 +12,11 @@ const readLine = require ('readline-sync');
 //     console.log(y);
 // }
 
-// let z = 10;
-// while (z > 5){
-//     console.log(z);
-//     z--;
-// }
+let z = 10;
+while (z > 5){
+    console.log(z);
+    z--;
+}
 
 // let w = 0 ;
 // while (w<5){
@@ -33,3 +33,10 @@ const readLine = require ('readline-sync');
 //     }
 //     start ++;
 // }
+
+// let answer = readLine.question("Enter y or n");
+// while (answer !="y" && answer !="n"){
+//     console.log("Invaild choice.")
+//     answer = readLine.question("Try again. Enter y or n:  ");
+// }
+// console.log("rest of program");
